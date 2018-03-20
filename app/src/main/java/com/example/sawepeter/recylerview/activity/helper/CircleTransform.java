@@ -43,10 +43,13 @@ public class CircleTransform extends BitmapTransformation{
         Paint paint = new Paint();
         paint.setShader(new BitmapShader(squared, BitmapShader.TileMode.CLAMP, BitmapShader.TileMode.CLAMP));
         paint.setAntiAlias(true);
+        float r = size / 2f;
+        canvas.drawCircle(r, r, r, paint);
+        return result;
     }
 
     @Override
     public String getId() {
-        return null;
+        return getClass().getName();
     }
 }
