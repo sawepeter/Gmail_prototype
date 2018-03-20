@@ -60,4 +60,27 @@ public class Message {
     public boolean isImportant() {
         return isImportant;
     }
+    public void setImportant(boolean important) {
+        isImportant = important;
+    }
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
+    public boolean isRead() {
+        return isRead;
+    }
+    public void setRead(boolean read) {
+        isRead = read;
+    }
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+    }
 }
