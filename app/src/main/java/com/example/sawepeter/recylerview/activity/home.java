@@ -1,7 +1,9 @@
-package com.example.sawepeter.recylerview;
+package com.example.sawepeter.recylerview.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.sawepeter.recylerview.R;
 
 public class home extends AppCompatActivity {
 
