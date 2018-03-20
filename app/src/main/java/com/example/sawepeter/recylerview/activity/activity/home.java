@@ -1,4 +1,4 @@
-package com.example.sawepeter.recylerview.activity;
+package com.example.sawepeter.recylerview.activity.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
