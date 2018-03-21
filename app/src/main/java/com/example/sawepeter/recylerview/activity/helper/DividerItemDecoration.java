@@ -3,6 +3,7 @@ package com.example.sawepeter.recylerview.activity.helper;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
+import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
@@ -74,6 +75,15 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration{
             final int right = left + mDivider.getIntrinsicHeight();
             mDivider.setBounds(left, top, right, bottom);
             mDivider.draw(c);
+        }
+    }
+    @Override
+    public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+        if (mOrientation == VERTICAL_LIST) {
+            outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
+
+        }else {
+
         }
     }
 }
