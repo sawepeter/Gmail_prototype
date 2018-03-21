@@ -2,6 +2,7 @@ package com.example.sawepeter.recylerview.activity.helper;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
@@ -32,6 +33,12 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration{
         if(orientation != HORIZONTAL_LIST && orientation != VERTICAL_LIST) {
             throw new IllegalArgumentException("invalid orientation");
         }
+
+        mOrientation = orientation;
+    }
+
+    @Override
+    public void onDrawerOver(Canvas c, RecyclerView parent, RecyclerView.State state){
 
     }
 }
