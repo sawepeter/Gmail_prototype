@@ -1,5 +1,7 @@
 package com.example.sawepeter.recylerview.activity.helper;
 
+import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
@@ -18,4 +20,11 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration{
     public static final int VERTICAL_LIST = LinearLayoutManager.VERTICAL;
     private Drawable mDivider;
     private int mOrientation;
+
+    public DividerItemDecoration(Context context, int orientation) {
+        final TypedArray a = context.obtainStyledAttributes(ATTRS);
+        mDivider = a.getDrawable(0);
+        a.recycle();
+        setOrientation(orientation);
+    }
 }
