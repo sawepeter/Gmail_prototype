@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 /**
  * Created by SAWE PETER on 3/21/2018.
@@ -52,7 +53,8 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration{
 
         final int childCount = parent.getChildCount();
         for (int i=0; i<childCount; i++) {
-            
+            final View child = parent.getChildAt(i);
+            final  RecyclerView.LayoutParams params = (RecyclerView.LayoutParams)child.getLayoutParams();
         }
     }
 }
