@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_white_24dp.png",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_star_black_24dp.png",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_star_border_black_24dp.png",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_border_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_edit_white_24dp.png",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\src\\main\\res\\drawable-xxhdpi\\ic_edit_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_done_white_24dp.png",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\src\\main\\res\\drawable-xxhdpi\\ic_done_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_white_24dp.png",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\RecylerView\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete_white_24dp.png"
+    }
+]
